@@ -3,7 +3,7 @@ ORIG_PN="gtkmm"
 inherit cross gtkmm
 
 NAME="mingw64-x86_64-gtkmm3.0"
-VERSION=3.22.0
+VERSION=3.22.2
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GTK+ C++ bindings for Win64 toolchain"
@@ -13,5 +13,3 @@ mingw64-x86_64-gcc cross compiler, and installs into the
 /usr/x86_64-w64-mingw32/sys-root/mingw/{lib,include} directories."
 
 CYGCONF_ARGS="--disable-documentation --disable-static"
-
-KEEP_LA_FILES="none"
